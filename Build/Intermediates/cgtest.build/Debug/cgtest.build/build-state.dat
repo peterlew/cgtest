@@ -1,0 +1,390 @@
+Tcgtest
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.o /Users/peter/Desktop/CG/cgtest/cgtest/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/peter/Desktop/CG/cgtest/Build/Products/Debug/cgtest normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c0000000051141DD0000000000000586B
+t1360272848
+s22635
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c0000000051D1AB7F000000000000186F
+t1372695423
+s6255
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/math.h
+c0000000051141DD200000000000066C2
+t1360272850
+s26306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/unistd.h
+c0000000051141DD30000000000006762
+t1360272851
+s26466
+
+N/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004F83A460000000000000578C
+t1334027360
+s22412
+
+N/Users/peter/Desktop/CG/cgtest/../../../../../Applications/Max5/Cycling '74/jitter-externals/Cg.framework/Cg
+c00000000476178B50000000000986DC0
+t1197570229
+s9989568
+
+N/Users/peter/Desktop/CG/cgtest/../../../../../System/Library/Frameworks/GLUT.framework/GLUT
+c0000000050A6693200000000000FFF10
+t1353083186
+s1048336
+
+N/Users/peter/Desktop/CG/cgtest/../../../../../System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000005178A63C000000000002DAD0
+t1366861372
+s187088
+
+N/Users/peter/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Cg
+c0000000051BA15010000000000986DC0
+t1371149569
+s9989568
+
+N/Users/peter/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/Cg.h
+c0000000051BA15010000000000007D2B
+t1371149569
+s32043
+
+N/Users/peter/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/cgGL.h
+c0000000051BA150100000000000044BF
+t1371149569
+s17599
+
+N/Users/peter/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/cgGL_profiles.h
+c0000000051BA15010000000000000D59
+t1371149569
+s3417
+
+N/Users/peter/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/cg_bindlocations.h
+c0000000051BA15010000000000006855
+t1371149569
+s26709
+
+N/Users/peter/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/cg_datatypes.h
+c0000000051BA15010000000000003420
+t1371149569
+s13344
+
+N/Users/peter/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/cg_enums.h
+c0000000051BA150100000000000010F9
+t1371149569
+s4345
+
+N/Users/peter/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/cg_errors.h
+c0000000051BA15010000000000002A53
+t1371149569
+s10835
+
+N/Users/peter/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/cg_profiles.h
+c0000000051BA150100000000000010FA
+t1371149569
+s4346
+
+N/Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/cgtest.LinkFileList
+c0000000051E6CAD5000000000000006E
+t1374079701
+s110
+
+N/Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.o
+t1374212518
+s32620
+
+N/Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/cgtest.LinkFileList
+c0000000051E6C8E60000000000000070
+t1374079206
+s112
+
+N/Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o
+t1374079674
+s21104
+
+N/Users/peter/Desktop/CG/cgtest/Build/Products/Debug/cgtest
+t1374212518
+s23968
+
+N/Users/peter/Desktop/CG/cgtest/cgtest/main.cpp
+c0000000051E878DC00000000000033CA
+t1374189788
+s13258
+i<iostream>
+i<GLUT/GLUT.h>
+i<Cg/Cg.h>
+i<Cg/cgGL.h>
+i<unistd.h>
+i<math.h>
+
+N/Users/peter/dev/Shared/support/Cg/mac/Cg.framework/Headers/cg.h
+c0000000051BA15010000000000007D2B
+t1371149569
+s32043
+
+N/Users/peter/dev/Shared/support/Cg/mac/Cg.framework/Headers/cgGL.h
+c0000000051BA150100000000000044BF
+t1371149569
+s17599
+
+N/Users/plewis/Desktop/CG/cgtest/../../../../../System/Library/Frameworks/GLUT.framework/GLUT
+c000000004F318A730000000000105760
+t1328646771
+s1070944
+
+N/Users/plewis/Desktop/CG/cgtest/../../../../../System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000005051800B000000000002D360
+t1347518475
+s185184
+
+N/Users/plewis/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Cg
+c0000000051E44E9C0000000000986DC0
+t1373916828
+s9989568
+
+N/Users/plewis/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/Cg.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/plewis/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/cgGL.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/plewis/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/cgGL_profiles.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/plewis/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/cg_bindlocations.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/plewis/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/cg_datatypes.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/plewis/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/cg_enums.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/plewis/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/cg_errors.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/plewis/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac/Cg.framework/Headers/cg_profiles.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/cgtest.LinkFileList
+c0000000051E45811000000000000006F
+t1373919249
+s111
+
+N/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.o
+t1374012774
+s21760
+
+N/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/cgtest.LinkFileList
+c0000000051E4431D0000000000000071
+t1373913885
+s113
+
+N/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o
+t1373919079
+s8588
+
+N/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtest
+t1374012774
+s18156
+
+N/Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp
+c00000000000000000000000000000000
+t2
+s0
+i<iostream>
+i<GLUT/GLUT.h>
+i<Cg/Cg.h>
+i<Cg/cgGL.h>
+i<unistd.h>
+
+N/Users/plewis/dev/Shared/support/Cg/mac/Cg.framework/Headers/cg.h
+c0000000051DC6A130000000000007D2B
+t1373399571
+s32043
+
+N/Users/plewis/dev/Shared/support/Cg/mac/Cg.framework/Headers/cgGL.h
+c0000000051DC6A1300000000000044BF
+t1373399571
+s17599
+
+N/usr/include/unistd.h
+c000000004F4454C50000000000006662
+t1329878213
+s26210
+
+CBuild AST from /Users/peter/Desktop/CG/cgtest/cgtest/main.cpp
+r0
+
+CBuild AST from /Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies96eb21f82999b741^4d4922f82999b741^---0#1#0#--18"Check dependencies36"36D5BEBB-AC81-49F2-86F0-902457066F0C-
+
+CCompileC Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.o /Users/peter/Desktop/CG/cgtest/cgtest/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395905317.397934
+e395905318.335284
+r1
+xCompileC
+xBuild/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.o
+x/Users/peter/Desktop/CG/cgtest/cgtest/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compile /Users/peter/Desktop/CG/cgtest/cgtest/main.cpp90d866250999b741^84d455260999b741^---0#0#0#-19%DVTDocumentLocation2@62"file://localhost/Users/peter/Desktop/CG/cgtest/cgtest/main.cpp0000000000000000^2836"CompileC Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.o cgtest/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/Desktop/CG/cgtest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-generated-files.hmap -I/Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-own-target-headers.hmap -I/Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-all-target-headers.hmap -iquote /Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-project-headers.hmap -I/Users/peter/Desktop/CG/cgtest/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/DerivedSources/i386 -I/Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/DerivedSources -F/Users/peter/Desktop/CG/cgtest/Build/Products/Debug -F/Users/peter/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac "-F/Applications/Max5/Cycling '74/jitter-externals" -MMD -MT dependencies -MF /Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.dia -c /Users/peter/Desktop/CG/cgtest/cgtest/main.cpp -o /Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.o36"E1DF6AF1-32AE-4E9A-9CF2-51CDDEFF790D-
+
+CCompileC Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.o /Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395708017.081651
+e395708020.077702
+r1
+xCompileC
+xBuild/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.o
+x/Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp0f0b15710696b741^581a14740696b741^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp0000000000000000^2798"CompileC Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.o cgtest/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/plewis/Desktop/CG/cgtest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-generated-files.hmap -I/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-own-target-headers.hmap -I/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-all-target-headers.hmap -iquote /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-project-headers.hmap -I/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/DerivedSources/i386 -I/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/DerivedSources -F/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug -F/Users/plewis/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac -MMD -MT dependencies -MF /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.dia -c /Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp -o /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/main.o36"748B2707-CA5E-44F8-93D8-49B62892642D-
+
+CCompileC Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o /Users/peter/Desktop/CG/cgtest/cgtest/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395772473.928802
+e395772474.438714
+r1
+xCompileC
+xBuild/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o
+x/Users/peter/Desktop/CG/cgtest/cgtest/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compile /Users/peter/Desktop/CG/cgtest/cgtest/main.cpp9fe5ed390297b741^984d703a0297b741^---0#0#0#-19%DVTDocumentLocation2@62"file://localhost/Users/peter/Desktop/CG/cgtest/cgtest/main.cpp0000000000000000^2850"CompileC Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o cgtest/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/Desktop/CG/cgtest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-generated-files.hmap -I/Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-own-target-headers.hmap -I/Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-all-target-headers.hmap -iquote /Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-project-headers.hmap -I/Users/peter/Desktop/CG/cgtest/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/DerivedSources/x86_64 -I/Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/DerivedSources -F/Users/peter/Desktop/CG/cgtest/Build/Products/Debug -F/Users/peter/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac "-F/Applications/Max5/Cycling '74/jitter-externals" -MMD -MT dependencies -MF /Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.dia -c /Users/peter/Desktop/CG/cgtest/cgtest/main.cpp -o /Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o36"CDCAD62D-6DB6-4FDB-ADE1-BC71757633AC-
+
+CCompileC Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o /Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395611879.062745
+e395611879.964828
+r1
+xCompileC
+xBuild/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o
+x/Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp543a10e78e94b741^e50ef7e78e94b741^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp0000000000000000^2812"CompileC Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o cgtest/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/plewis/Desktop/CG/cgtest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-generated-files.hmap -I/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-own-target-headers.hmap -I/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-all-target-headers.hmap -iquote /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-project-headers.hmap -I/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/DerivedSources/x86_64 -I/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/DerivedSources -F/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug -F/Users/plewis/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac -MMD -MT dependencies -MF /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.dia -c /Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp -o /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o36"A79C5A31-4494-49CF-B128-BC4C320A4610-
+
+CLd /Users/peter/Desktop/CG/cgtest/Build/Products/Debug/cgtest normal i386
+s395905318.342254
+e395905318.509622
+r1
+xLd
+x/Users/peter/Desktop/CG/cgtest/Build/Products/Debug/cgtest
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Link /Users/peter/Desktop/CG/cgtest/Build/Products/Debug/cgtestb11558260999b741^d57782260999b741^---0#0#0#--853"Ld Build/Products/Debug/cgtest normal i386    cd /Users/peter/Desktop/CG/cgtest    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/peter/Desktop/CG/cgtest/Build/Products/Debug -F/Users/peter/Desktop/CG/cgtest/Build/Products/Debug -F/Users/peter/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac "-F/Applications/Max5/Cycling '74/jitter-externals" -filelist /Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/cgtest.LinkFileList -mmacosx-version-min=10.7 -stdlib=libc++ -framework GLUT -framework OpenGL -framework Cg -o /Users/peter/Desktop/CG/cgtest/Build/Products/Debug/cgtest36"521325C2-B026-4191-B45D-D720EEF8290E-
+
+CLd /Users/peter/Desktop/CG/cgtest/Build/Products/Debug/cgtest normal x86_64
+s395772474.446109
+e395772474.470035
+r0
+xLd
+x/Users/peter/Desktop/CG/cgtest/Build/Products/Debug/cgtest
+xnormal
+xx86_64
+old: warning: ignoring file /Users/peter/dev/Shared/support/Cg/mac/Cg.framework/Cg, missing required architecture x86_64 in file /Users/peter/dev/Shared/support/Cg/mac/Cg.framework/Cg (2 slices)
+oUndefined symbols for architecture x86_64:
+o  "_cgCreateContext", referenced from:
+o      _main in main.o
+o  "_cgCreateProgramFromFile", referenced from:
+o      _main in main.o
+o  "_cgGLBindProgram", referenced from:
+o      display() in main.o
+o  "_cgGLEnableProfile", referenced from:
+o      _main in main.o
+o  "_cgGLLoadProgram", referenced from:
+o      _main in main.o
+o  "_cgGLSetParameter1f", referenced from:
+o      display() in main.o
+o  "_cgGLSetParameter2f", referenced from:
+o      display() in main.o
+o  "_cgGetError", referenced from:
+o      _main in main.o
+o  "_cgGetErrorString", referenced from:
+o      _main in main.o
+o  "_cgGetNamedParameter", referenced from:
+o      display() in main.o
+old: symbol(s) not found for architecture x86_64
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Link /Users/peter/Desktop/CG/cgtest/Build/Products/Debug/cgtest3d60723a0297b741^6d53783a0297b741^-1007"ld: warning: ignoring file /Users/peter/dev/Shared/support/Cg/mac/Cg.framework/Cg, missing required architecture x86_64 in file /Users/peter/dev/Shared/support/Cg/mac/Cg.framework/Cg (2 slices)Undefined symbols for architecture x86_64:  "_cgCreateContext", referenced from:      _main in main.o  "_cgCreateProgramFromFile", referenced from:      _main in main.o  "_cgGLBindProgram", referenced from:      display() in main.o  "_cgGLEnableProfile", referenced from:      _main in main.o  "_cgGLLoadProgram", referenced from:      _main in main.o  "_cgGLSetParameter1f", referenced from:      display() in main.o  "_cgGLSetParameter2f", referenced from:      display() in main.o  "_cgGetError", referenced from:      _main in main.o  "_cgGetErrorString", referenced from:      _main in main.o  "_cgGetNamedParameter", referenced from:      display() in main.old: symbol(s) not found for architecture x86_64clang: error: linker command failed with exit code 1 (use -v to see invocation)23(21%IDEActivityLogMessage2@180"Ignoring file /Users/peter/dev/Shared/support/Cg/mac/Cg.framework/Cg, missing required architecture x86_64 in file /Users/peter/dev/Shared/support/Cg/mac/Cg.framework/Cg (2 slices)-395772474#0#194#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@36""_cgCreateContext", referenced from:-395772474#237#39#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395772474#276#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@44""_cgCreateProgramFromFile", referenced from:-395772474#298#47#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395772474#345#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@36""_cgGLBindProgram", referenced from:-395772474#367#39#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@19"Display() in main.o-395772474#406#26#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@38""_cgGLEnableProfile", referenced from:-395772474#432#41#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395772474#473#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@36""_cgGLLoadProgram", referenced from:-395772474#495#39#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395772474#534#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@39""_cgGLSetParameter1f", referenced from:-395772474#556#42#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@19"Display() in main.o-395772474#598#26#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@39""_cgGLSetParameter2f", referenced from:-395772474#624#42#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@19"Display() in main.o-395772474#666#26#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@31""_cgGetError", referenced from:-395772474#692#34#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395772474#726#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@37""_cgGetErrorString", referenced from:-395772474#748#40#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395772474#788#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@40""_cgGetNamedParameter", referenced from:-395772474#810#43#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@19"Display() in main.o-395772474#853#26#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@43"Symbol(s) not found for architecture x86_64-395772474#879#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-395772474#927#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#0#--859"Ld Build/Products/Debug/cgtest normal x86_64    cd /Users/peter/Desktop/CG/cgtest    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/peter/Desktop/CG/cgtest/Build/Products/Debug -F/Users/peter/Desktop/CG/cgtest/Build/Products/Debug -F/Users/peter/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac "-F/Applications/Max5/Cycling '74/jitter-externals" -filelist /Users/peter/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/cgtest.LinkFileList -mmacosx-version-min=10.7 -stdlib=libc++ -framework GLUT -framework OpenGL -framework Cg -o /Users/peter/Desktop/CG/cgtest/Build/Products/Debug/cgtest36"2460EB37-1E5C-4FFE-AB08-52314AEADB93-
+
+CLd /Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtest normal i386
+s395708020.084865
+e395708020.419834
+r1
+xLd
+x/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtest
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Link /Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtestfad015740696b741^4a7b6b740696b741^---0#0#0#--807"Ld Build/Products/Debug/cgtest normal i386    cd /Users/plewis/Desktop/CG/cgtest    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug -F/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug -F/Users/plewis/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac -filelist /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/i386/cgtest.LinkFileList -mmacosx-version-min=10.7 -stdlib=libc++ -framework GLUT -framework OpenGL -framework Cg -o /Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtest36"1C1F7F68-99BB-41CD-8DF7-DA01873167FB-
+
+CLd /Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtest normal x86_64
+s395611879.978368
+e395611880.047358
+r0
+xLd
+x/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtest
+xnormal
+xx86_64
+old: warning: ignoring file /Users/plewis/dev/Shared/support/Cg/mac/Cg.framework/Cg, missing required architecture x86_64 in file /Users/plewis/dev/Shared/support/Cg/mac/Cg.framework/Cg (2 slices)
+oUndefined symbols for architecture x86_64:
+o  "_cgCreateContext", referenced from:
+o      _main in main.o
+o  "_cgCreateProgramFromFile", referenced from:
+o      _main in main.o
+o  "_cgGLBindProgram", referenced from:
+o      display() in main.o
+o  "_cgGLEnableProfile", referenced from:
+o      _main in main.o
+o  "_cgGLLoadProgram", referenced from:
+o      _main in main.o
+o  "_cgGLSetParameter1f", referenced from:
+o      display() in main.o
+o  "_cgGetError", referenced from:
+o      _main in main.o
+o  "_cgGetErrorString", referenced from:
+o      _main in main.o
+o  "_cgGetNamedParameter", referenced from:
+o      display() in main.o
+old: symbol(s) not found for architecture x86_64
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Link /Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtestc6e1fce78e94b741^5a7e0ce88e94b741^-941"ld: warning: ignoring file /Users/plewis/dev/Shared/support/Cg/mac/Cg.framework/Cg, missing required architecture x86_64 in file /Users/plewis/dev/Shared/support/Cg/mac/Cg.framework/Cg (2 slices)Undefined symbols for architecture x86_64:  "_cgCreateContext", referenced from:      _main in main.o  "_cgCreateProgramFromFile", referenced from:      _main in main.o  "_cgGLBindProgram", referenced from:      display() in main.o  "_cgGLEnableProfile", referenced from:      _main in main.o  "_cgGLLoadProgram", referenced from:      _main in main.o  "_cgGLSetParameter1f", referenced from:      display() in main.o  "_cgGetError", referenced from:      _main in main.o  "_cgGetErrorString", referenced from:      _main in main.o  "_cgGetNamedParameter", referenced from:      display() in main.old: symbol(s) not found for architecture x86_64clang: error: linker command failed with exit code 1 (use -v to see invocation)21(21%IDEActivityLogMessage2@182"Ignoring file /Users/plewis/dev/Shared/support/Cg/mac/Cg.framework/Cg, missing required architecture x86_64 in file /Users/plewis/dev/Shared/support/Cg/mac/Cg.framework/Cg (2 slices)-395611880#0#196#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@36""_cgCreateContext", referenced from:-395611880#239#39#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395611880#278#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@44""_cgCreateProgramFromFile", referenced from:-395611880#300#47#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395611880#347#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@36""_cgGLBindProgram", referenced from:-395611880#369#39#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@19"Display() in main.o-395611880#408#26#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@38""_cgGLEnableProfile", referenced from:-395611880#434#41#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395611880#475#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@36""_cgGLLoadProgram", referenced from:-395611880#497#39#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395611880#536#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@39""_cgGLSetParameter1f", referenced from:-395611880#558#42#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@19"Display() in main.o-395611880#600#26#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@31""_cgGetError", referenced from:-395611880#626#34#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395611880#660#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@37""_cgGetErrorString", referenced from:-395611880#682#40#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395611880#722#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@40""_cgGetNamedParameter", referenced from:-395611880#744#43#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@19"Display() in main.o-395611880#787#26#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@43"Symbol(s) not found for architecture x86_64-395611880#813#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-395611880#861#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#0#--813"Ld Build/Products/Debug/cgtest normal x86_64    cd /Users/plewis/Desktop/CG/cgtest    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug -F/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug -F/Users/plewis/Desktop/CG/cgtest/../../../dev/Shared/support/Cg/mac -filelist /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/cgtest.LinkFileList -mmacosx-version-min=10.7 -stdlib=libc++ -framework GLUT -framework OpenGL -framework Cg -o /Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtest36"74CAA8CA-2CAF-4377-B5CA-90767C303B63-
+

@@ -1,0 +1,51 @@
+cwd change from Users/plewis to Users/peter
+remove CG framework and re-add in correct location
+Old profiles: VP40, FP40. Now using CGprofile f_prof = cgGLGetLatestProfile(CG_GL_FRAGMENT);
+
+
+Implementation notes:
+
+smooth transition between arbitrary fractals is possible by interpolating
+between iteration functions. However, this requires a shader with the two
+functions hard-coded in as func1 and func2. We could achieve this but 
+there is a lot of redundancy involved, and for N fractal functions we'd
+need N-choose-2, or N(N-1)/2 shaders. Could be worse, I could see a 
+program with 20 fractals and 190 shaders. Remember, each fractal function
+supports a LOT of variation. 
+
+For next week's demo:
+	Let's try to show three or four diff fractals, one morphing 
+	into the next. Goal: 4 minute video
+	
+	Fractals:
+		Mandel
+		Newton
+		Ship
+		Nova
+		
+	Variables:
+		Zoom
+		Color
+		Multiplier
+		Rotation
+		Location
+		
+SCENE 1:
+	Mandel / Newton
+	Three passes 
+		RGB
+		Varying multiplier
+	Start (Red Dot)
+		P:  0.297205, 0.063085
+		Z:  0.001157
+		V1: 1.012991
+	Move Left (to Above Interest)
+		P:  -0.129831, -0.637758
+		Z:	0.507148
+		V1:	1.103996
+	Zoom in
+		P:	-0.162030, -1.02009
+		Z:	0.041826
+		V1:	0.983991
+		
+		

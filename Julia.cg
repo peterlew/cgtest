@@ -1,0 +1,30 @@
+struct output{
+    float4 color : COLOR;
+};
+
+output main(float4 color : COLOR, float4 position : POSITION, float4 texCoord : TEXCOORD, uniform float zoom, uniform float2 zc, uniform float2 c)
+{
+    output OUT;
+    float2 p = zoom * texCoord.xy + zc;
+
+    float iter = 48.0;
+    
+    float count = 0.0;
+    
+    float xTemp;
+
+    while(count < iter){
+        if(dot(p, p) > 4.0)
+            break;
+        xTemp = p.x;
+        p.x = p.x*p.x - p.y*p.y + c.x;
+        p.y = 2 * xTemp * p.y + c.y;
+        count++;
+    }
+
+    float col = 1.0 - count / iter;
+    float len = length( p ) / 5.0;
+    OUT.color = float4(col*len, len, col, 1.0);
+    //OUT.color = float4(col, col, col, 1.0);
+	return OUT;
+}

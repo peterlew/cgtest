@@ -1,0 +1,12 @@
+struct output{
+    float4 position : POSITION;
+    float2 texCoord : TEXCOORD;
+};
+
+output main(float2 position : POSITION)
+{
+    output OUT;
+    OUT.position = float4(position, 0, 1);
+    OUT.texCoord = float2(position);
+    return OUT;
+}

@@ -1,0 +1,78 @@
+struct output{
+    float4 color : COLOR;
+};
+
+float2 mult(float2 v1, float2 v2)
+{
+    return float2(v1.x * v2.x - v1.y * v2.y, v1.x * v2.y + v1.y * v2.x);
+}
+
+float2 div(float2 v1, float2 v2)
+{
+	float d = v2.x * v2.x + v2.y * v2.y;
+	return vec2( ( v1.x * v2.x + v1.y * v2.y ) / d,
+			    ( v1.y * v2.x - v1.x * v2.y ) / d );
+}
+
+output main(float4 color : COLOR, float4 position : POSITION, float4 texCoord : TEXCOORD, uniform float zoom, uniform float2 zc, uniform float2 f)
+{
+    output OUT;
+    float2 r1 = float2(1.0, 0.0);
+    float2 r2 = float2(-0.5, 0.866);
+    float2 r3 = float2(-0.5, -0.866);
+    
+    float cutoff = 25.0;
+    float divide = 3.0;
+    float factX, factY;
+	factX = 9 * f.x + 3;
+	factY = f.y;
+    float2 fact = float2(factX, factY);
+	
+	float2 a = -1.0 * r1 - r2 - r3;
+	float2 b = mult( r1, r2 ) + mult( r2, r3 ) + mult( r1, r3 );
+	float2 c = -1.0 * mult( mult( r1, r2 ), r3 );
+	float2 d = 2.0 * a;
+	float2 e = b;
+
+	float count = 0.0;
+
+	float2 p = zoom * texCoord.xy + zc;
+
+	float eps = 0.001;
+    
+    float rCol, gCol, bCol;
+    rCol = gCol = bCol = 0.0;
+
+	while( count < cutoff )
+	{
+		/*
+		if( abs( r1.x - p.x ) < eps && abs( r1.y - p.y ) < eps )
+		{
+			rCol = 1.0 - count / cutoff;
+			break;
+		}
+		if( abs( r2.x - p.x ) < eps && abs( r2.y - p.y ) < eps )
+		{
+			gCol = 1.0 - count / cutoff;
+			break;
+		}
+		if( abs( r3.x - p.x ) < eps && abs( r3.y - p.y ) < eps )
+		{
+			bCol = 1.0 - count / cutoff;
+			break;
+		}
+		*/
+		p = p - mult( fact, div( mult( p, mult( p, p ) ) + mult( a, mult( p, p ) )
+					+ mult( b, p ) + c, 
+				   3.0 * mult( p, p ) + mult( d, p ) + e ) );
+		count = count + 1.0;
+	}
+
+	rCol += p.x / divide;
+	gCol += p.y / divide;
+	bCol += sqrt( p.x * p.x + p.y * p.y ) / divide;
+
+    float col = 0.5;
+    OUT.color = float4(rCol, gCol, bCol, 1.0);
+    return OUT;
+}

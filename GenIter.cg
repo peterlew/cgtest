@@ -1,0 +1,63 @@
+struct output{
+	float4 color : COLOR;
+};
+
+float2 mult(float2 v1, float2 v2)
+{
+    return float2(v1.x * v2.x - v1.y * v2.y, v1.x * v2.y + v1.y * v2.x);
+}
+
+float2 div(float2 v1, float2 v2)
+{
+	float d = v2.x * v2.x + v2.y * v2.y;
+	return vec2( ( v1.x * v2.x + v1.y * v2.y ) / d,
+			    ( v1.y * v2.x - v1.x * v2.y ) / d );
+}
+
+float2 func1(float2 p, float2 c)
+{
+	return float2(p.x * p.x - p.y * p.y + c.x, 2.0 * p.x * p.y + c.y);
+}
+
+float2 func2(float2 p, float2 c)
+{
+	return p - div(mult(mult(p,p),p) - 1.0, 2.0 * mult(p,p));
+}
+
+output main(float4 color : COLOR, float4 position : POSITION, float4 texCoord : TEXCOORD, uniform float zoom, uniform float2 zc, uniform float var1, uniform float var2)
+{
+	output OUT;
+	
+	float2 p = zoom * texCoord.xy + zc;
+	float2 c = float2(p);
+	float2 c0 = float2(0.2499, 0);
+	float iter = 10.0;
+	float count = 0.0;
+	float eps = 0.1;
+	float len;
+	float mult = 1.0;
+
+	while(mult < 1.03)
+	{
+		while(count < iter)
+		{
+			len = dot(p,p);
+			if(len > 25.0)
+				break;
+			p = mult * var1 * func1(p, c) + mult * (1.0 - var1) * func2(p, c);
+			count += 1.0;
+		}
+		float col = 1.0 - count / iter;
+		len /= 50.0;
+		if(mult == 1.0)
+			OUT.color.r = len / 4;
+		else if(mult == 1.01)
+			OUT.color.g = len / 2;
+		else OUT.color.b = len / 2;
+		mult += 0.01;
+		count = 0.0;
+		p = float2(c);
+	}
+
+	return OUT;
+}

@@ -1,0 +1,15 @@
+struct output{
+	float4 color : COLOR;
+};
+
+output main(float4 color : COLOR, float4 position : POSITION)
+{
+	output OUT;
+	// OUT.color = float4(abs(sin(color[0] + delta/10.0)), 
+	// 				   abs(sin(color[1] + delta/10.0)),
+	// 				   abs(sin(color[2] + delta/10.0)), 
+	// 				   1.0);
+	OUT.color = float4(0, 1, 0, 1);
+	return OUT;	
+}
+

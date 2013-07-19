@@ -1,0 +1,13 @@
+struct output{
+	float4 color : COLOR;
+};
+
+output main(float4 color : COLOR, float4 position : POSITION, uniform float delta)
+{
+	output OUT;
+    float col = delta / 100.0;
+    OUT.color = float4(col, col, col, 1.0);
+	// OUT.color = float4(0, 1, 0, 1);
+	return OUT;	
+}
+

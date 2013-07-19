@@ -1,0 +1,100 @@
+Tcgtest
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o /Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtest normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/cgtest.LinkFileList
+c0000000051E4431D0000000000000071
+t1373913885
+s113
+
+N/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtest
+t2
+s0
+
+N/Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp
+c0000000051E4431D00000000000003BD
+t1373913885
+s957
+i<iostream>
+
+CBuild AST from /Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies64e62e9d7a94b741^be69429d7a94b741^---0#1#0#--18"Check dependencies36"00F9B67B-B3AF-4611-BF9C-7AB7BBD28212-
+
+CCompileC Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o /Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395606685.205409
+e395606686.529266
+r1
+xCompileC
+xBuild/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o
+x/Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Users/plewis/Desktop/CG/cgtest/cgtest/main.cppb7d1349d7a94b741^f183879e7a94b741^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp0000000000000000^2743"CompileC Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o cgtest/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/plewis/Desktop/CG/cgtest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-generated-files.hmap -I/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-own-target-headers.hmap -I/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-all-target-headers.hmap -iquote /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/cgtest-project-headers.hmap -I/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/DerivedSources/x86_64 -I/Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/DerivedSources -F/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug -MMD -MT dependencies -MF /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.dia -c /Users/plewis/Desktop/CG/cgtest/cgtest/main.cpp -o /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/main.o36"2F23EB6F-7B11-4C0B-B5FB-D7C9D8807AD8-
+
+CLd /Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtest normal x86_64
+s395606686.536158
+e395606686.599189
+r0
+xLd
+x/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtest
+xnormal
+xx86_64
+oUndefined symbols for architecture x86_64:
+o  "_glBegin", referenced from:
+o      display() in main.o
+o  "_glClear", referenced from:
+o      display() in main.o
+o  "_glClearColor", referenced from:
+o      _main in main.o
+o  "_glColor3f", referenced from:
+o      display() in main.o
+o  "_glEnd", referenced from:
+o      display() in main.o
+o  "_glLoadIdentity", referenced from:
+o      reshape(int, int) in main.o
+o  "_glMatrixMode", referenced from:
+o      reshape(int, int) in main.o
+o  "_glVertex2f", referenced from:
+o      display() in main.o
+o  "_glViewport", referenced from:
+o      reshape(int, int) in main.o
+o  "_gluOrtho2D", referenced from:
+o      reshape(int, int) in main.o
+o  "_glutCreateWindow", referenced from:
+o      _main in main.o
+o  "_glutDisplayFunc", referenced from:
+o      _main in main.o
+o  "_glutInit", referenced from:
+o      _main in main.o
+o  "_glutInitDisplayMode", referenced from:
+o      _main in main.o
+o  "_glutInitWindowSize", referenced from:
+o      _main in main.o
+o  "_glutMainLoop", referenced from:
+o      _main in main.o
+o  "_glutReshapeFunc", referenced from:
+o      _main in main.o
+o  "_glutSwapBuffers", referenced from:
+o      display() in main.o
+old: symbol(s) not found for architecture x86_64
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Link /Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtest2158899e7a94b741^e066999e7a94b741^-1285"Undefined symbols for architecture x86_64:  "_glBegin", referenced from:      display() in main.o  "_glClear", referenced from:      display() in main.o  "_glClearColor", referenced from:      _main in main.o  "_glColor3f", referenced from:      display() in main.o  "_glEnd", referenced from:      display() in main.o  "_glLoadIdentity", referenced from:      reshape(int, int) in main.o  "_glMatrixMode", referenced from:      reshape(int, int) in main.o  "_glVertex2f", referenced from:      display() in main.o  "_glViewport", referenced from:      reshape(int, int) in main.o  "_gluOrtho2D", referenced from:      reshape(int, int) in main.o  "_glutCreateWindow", referenced from:      _main in main.o  "_glutDisplayFunc", referenced from:      _main in main.o  "_glutInit", referenced from:      _main in main.o  "_glutInitDisplayMode", referenced from:      _main in main.o  "_glutInitWindowSize", referenced from:      _main in main.o  "_glutMainLoop", referenced from:      _main in main.o  "_glutReshapeFunc", referenced from:      _main in main.o  "_glutSwapBuffers", referenced from:      display() in main.old: symbol(s) not found for architecture x86_64clang: error: linker command failed with exit code 1 (use -v to see invocation)38(21%IDEActivityLogMessage2@28""_glBegin", referenced from:-395606686#43#31#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@19"Display() in main.o-395606686#74#26#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@28""_glClear", referenced from:-395606686#100#31#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@19"Display() in main.o-395606686#131#26#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@33""_glClearColor", referenced from:-395606686#157#36#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395606686#193#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@30""_glColor3f", referenced from:-395606686#215#33#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@19"Display() in main.o-395606686#248#26#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@26""_glEnd", referenced from:-395606686#274#29#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@19"Display() in main.o-395606686#303#26#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@35""_glLoadIdentity", referenced from:-395606686#329#38#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@27"Reshape(int, int) in main.o-395606686#367#34#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@33""_glMatrixMode", referenced from:-395606686#401#36#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@27"Reshape(int, int) in main.o-395606686#437#34#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@31""_glVertex2f", referenced from:-395606686#471#34#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@19"Display() in main.o-395606686#505#26#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@31""_glViewport", referenced from:-395606686#531#34#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@27"Reshape(int, int) in main.o-395606686#565#34#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@31""_gluOrtho2D", referenced from:-395606686#599#34#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@27"Reshape(int, int) in main.o-395606686#633#34#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@37""_glutCreateWindow", referenced from:-395606686#667#40#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395606686#707#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@36""_glutDisplayFunc", referenced from:-395606686#729#39#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395606686#768#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@29""_glutInit", referenced from:-395606686#790#32#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395606686#822#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@40""_glutInitDisplayMode", referenced from:-395606686#844#43#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395606686#887#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@39""_glutInitWindowSize", referenced from:-395606686#909#42#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395606686#951#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@33""_glutMainLoop", referenced from:-395606686#973#36#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395606686#1009#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@36""_glutReshapeFunc", referenced from:-395606686#1031#39#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-395606686#1070#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@36""_glutSwapBuffers", referenced from:-395606686#1092#39#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@19"Display() in main.o-395606686#1131#26#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@43"Symbol(s) not found for architecture x86_64-395606686#1157#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-395606686#1205#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#0#--696"Ld Build/Products/Debug/cgtest normal x86_64    cd /Users/plewis/Desktop/CG/cgtest    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug -F/Users/plewis/Desktop/CG/cgtest/Build/Products/Debug -filelist /Users/plewis/Desktop/CG/cgtest/Build/Intermediates/cgtest.build/Debug/cgtest.build/Objects-normal/x86_64/cgtest.LinkFileList -mmacosx-version-min=10.7 -stdlib=libc++ -o /Users/plewis/Desktop/CG/cgtest/Build/Products/Debug/cgtest36"0D11F122-B723-4E7F-89D4-750FB87EA217-
+
